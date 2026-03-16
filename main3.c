@@ -7,22 +7,13 @@ int main()
 	int a = 0;
 	int b = ~0;
 
-	int compareA, compareB;
-	for (int i = 0; i < 8; i++)
-	{
-		compareA = (a >> i) & 1;
-		compareB = (b >> i) & 1;
+	b += 1;
 
-		if (compareA != compareB)	// a와 b의 비트를 비교
-		{
-			printf("two's complement.\n");
-			break;
-		}
-	}
-	if (compareA == compareB)
+	if (a==b)
 	{
-		printf("one's complement.\n");
-	}
+		printf("two's complement.\n");
+    }
+	else printf("one's complement.\n");
 
 	return 0;
 }
