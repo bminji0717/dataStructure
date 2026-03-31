@@ -17,13 +17,16 @@ extern gcd(myInteger x, myInteger y) // y>x, y 나눔받는 수, x 나누는 수
 	else;
 
 	int temp;
+	int count = 0;
 
 	while (x != 0)
 	{
+		count++;
 		temp = x;
 		x = y % x;
 		y = temp;
 	}
+	printf("count: %d\n", count);
 	return y;
 }
 extern lcm(myInteger x, myInteger y, myInteger g)

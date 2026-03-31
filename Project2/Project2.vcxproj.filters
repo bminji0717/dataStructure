@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
+    <None Include="complexity.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="my_math.h">

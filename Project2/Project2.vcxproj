@@ -127,6 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="complexity.md">
+      <SubType>
+      </SubType>
+    </None>
     <None Include="README.md">
       <SubType>
       </SubType>
