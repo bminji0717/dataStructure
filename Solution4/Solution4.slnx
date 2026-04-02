@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="fibonacci/fibonacci.vcxproj" Id="da437ef2-74ed-4f72-adbb-e2cdd4e72bc0" />
+</Solution>
