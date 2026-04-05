@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="nOutput/nOutput.vcxproj" Id="01e14524-7245-4bf4-834c-873a7183994f" />
+  <Project Path="squre/squre.vcxproj" Id="8c68ff51-93fc-46d9-9220-10d67388a6f4" />
+</Solution>
